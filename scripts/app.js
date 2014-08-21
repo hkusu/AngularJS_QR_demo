@@ -4,7 +4,8 @@ angular.module('qrTestApp', [
   'ngCookies',
   'ngResource',
   'ngSanitize',
-  'ngRoute'
+  'ngRoute',
+  'ja.qr'
 ])
   .config(['$routeProvider', function ($routeProvider) {
     $routeProvider
